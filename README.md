@@ -1,6 +1,6 @@
-Hematological Cancer Classification Using Gene Expression Data
+##Hematological Cancer Classification Using Gene Expression Data
 
-Project Overview
+**Project Overview**
 
 This project investigates the classification of hematological malignancies using high-dimensional gene-expression data and machine learning techniques.
 
@@ -12,13 +12,17 @@ The project is being developed as part of a graduate-level Machine Learning cour
 
 Project Status: In progress — data preparation and exploratory data analysis.
 
-Researched Questions
+**Research Questions**
 
 Q1: How do different feature-selection techniques affect classification performance and generalization across hematological malignancy datasets?
 
-Q2:How does the biological relatedness of hematological malignancies, particularly whether they originate from the same or different cell lineages, relate to machine learning classification performance?
+Q2: How does the biological relatedness of hematological malignancies, particularly whether they originate from the same or different cell lineages, relate to machine learning classification performance?
 
-Reproducibility
+**Datasets**
+
+The datasets are retrieved programmatically within the notebooks. An internet connection is required, but no API credentials or manual downloads are necessary.
+
+**Reproducibility**
 
 This project uses Python and a fixed random seed (42) for reproducibility.
 
@@ -30,7 +34,11 @@ Create and activate a Python virtual environment.
 
 Install the required dependencies:
 
+
+```bash
 python -m pip install -r requirements.txt
+```
+
 
 Download the datasets following the instructions in the README.
 
