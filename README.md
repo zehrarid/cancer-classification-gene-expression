@@ -14,9 +14,11 @@ Project Status: In progress — data preparation and exploratory data analysis.
 
 **Research Questions**
 
-Q1: How do different feature-selection techniques affect classification performance and generalization across hematological malignancy datasets?
 
-Q2: How does the biological relatedness of hematological malignancies, particularly whether they originate from the same or different cell lineages, relate to machine learning classification performance?
+**RQ1:** How do different gene selection methods and hybrid approaches affect the performance of hematological cancer classification based on gene expression data?
+
+**RQ2:** How many genes are required to achieve satisfactory classification performance for ALL/AML and DLBCL/FL, and how does this number differ between the datasets?
+
 
 **Datasets**
 
